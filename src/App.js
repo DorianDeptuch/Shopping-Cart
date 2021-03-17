@@ -42,7 +42,7 @@ function App() {
       <Switch>
         <Route
           exact
-          path="/"
+          path="/Shopping-Cart/"
           render={(props) => (
             <Home
               {...props}
@@ -52,7 +52,7 @@ function App() {
           )}
         />
         <Route
-          path="/About"
+          path="/Shopping-Cart/About"
           render={(props) => (
             <About
               {...props}
@@ -62,7 +62,7 @@ function App() {
           )}
         />
         <Route
-          path="/Shop"
+          path="/Shopping-Cart/Shop"
           render={(props) => (
             <Shop
               {...props}
