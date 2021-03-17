@@ -1,6 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <div className="nav">
       <div className="title-div">
@@ -9,13 +10,22 @@ export default function Navbar() {
       <div className="list-div">
         <ul>
           <li>
-            <a href="/Home">Home</a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="/About">About</a>
+            <NavLink to="/About">About</NavLink>
           </li>
           <li>
-            <a href="/Shop">Shop</a>
+            <NavLink to="/Shop">Shop</NavLink>
+          </li>
+          <li>
+            <p
+              className="nav-cart-link"
+              onClick={props.handleDisplayCart}
+              href="/Shop"
+            >
+              &#128722;
+            </p>
           </li>
         </ul>
       </div>
