@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/DorianDeptuch/shopping-cart/static/css/main.2c5b9771.chunk.css",
+    "main.js": "/DorianDeptuch/shopping-cart/static/js/main.4a9731a5.chunk.js",
+    "main.js.map": "/DorianDeptuch/shopping-cart/static/js/main.4a9731a5.chunk.js.map",
+    "runtime-main.js": "/DorianDeptuch/shopping-cart/static/js/runtime-main.2be696d4.js",
+    "runtime-main.js.map": "/DorianDeptuch/shopping-cart/static/js/runtime-main.2be696d4.js.map",
+    "static/js/2.ee46b84a.chunk.js": "/DorianDeptuch/shopping-cart/static/js/2.ee46b84a.chunk.js",
+    "static/js/2.ee46b84a.chunk.js.map": "/DorianDeptuch/shopping-cart/static/js/2.ee46b84a.chunk.js.map",
+    "index.html": "/DorianDeptuch/shopping-cart/index.html",
+    "static/css/main.2c5b9771.chunk.css.map": "/DorianDeptuch/shopping-cart/static/css/main.2c5b9771.chunk.css.map",
+    "static/js/2.ee46b84a.chunk.js.LICENSE.txt": "/DorianDeptuch/shopping-cart/static/js/2.ee46b84a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/DorianDeptuch/shopping-cart/static/media/racked-cams-3.eba1dc36.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2be696d4.js",
+    "static/js/2.ee46b84a.chunk.js",
+    "static/css/main.2c5b9771.chunk.css",
+    "static/js/main.4a9731a5.chunk.js"
+  ]
+}
