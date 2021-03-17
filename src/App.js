@@ -42,7 +42,7 @@ function App() {
       <Switch>
         <Route
           exact
-          path="/Shopping-Cart/"
+          path="/"
           render={(props) => (
             <Home
               {...props}
