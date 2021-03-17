@@ -78,7 +78,7 @@ function App() {
             />
           )}
         />
-        <Route path="/" render={() => <ErrorPage />} />
+        {/* <Route path="/" render={() => <ErrorPage />} /> */}
       </Switch>
     </Router>
   );
