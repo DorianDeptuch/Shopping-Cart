@@ -3,7 +3,7 @@
         {   
             "id": 10,
             "name": "The C4 Cam 0.3",
-            "image": "./images/0-3-default.webp",
+            "image": "/images/0-3-default.webp",
             "price": 59.95,
             "weight": "75.0 g / 2.65 oz",
             "camHead":	"4 lobes, double axle",
@@ -20,7 +20,7 @@
         {   
             "id": 11,
             "name": "The C4 Cam 0.4",
-            "image": "./images/0-4-default.webp",
+            "image": "/images/0-4-default.webp",
             "price": 60.95,
             "weight": "78.0 g / 2.73 oz",
             "camHead":	"4 lobes, double axle",
@@ -37,7 +37,7 @@
         {   
             "id": 12,
             "name": "The C4 Cam 0.5",
-            "image": "./images/0-5-default.png",
+            "image": "/images/0-5-default.png",
             "price": 62.95,
             "weight": "93.0 g / 3.28 oz",
             "camHead":	"4 lobes, double axle",
@@ -54,7 +54,7 @@
         {   
             "id": 13,
             "name": "The C4 Cam 0.75",
-            "image": "./images/0-75-default.webp",
+            "image": "/images/0-75-default.webp",
             "price": 64.95,
             "weight": "108.0 g / 3.79 oz",
             "camHead":	"4 lobes, double axle",
@@ -71,7 +71,7 @@
         {   
             "id": 14,
             "name": "The C4 Cam 1",
-            "image": "./images/1-default.webp",
+            "image": "/images/1-default.webp",
             "price": 70.95,
             "weight": "124.0 g / 4.37 oz",
             "camHead":	"4 lobes, double axle",
@@ -88,7 +88,7 @@
         {   
             "id": 15,
             "name": "The C4 Cam 2",
-            "image": "./images/2-default.webp",
+            "image": "/images/2-default.webp",
             "price": 72.95,
             "weight": "140.0 g / 4.95 oz",
             "camHead":	"4 lobes, double axle",
@@ -105,7 +105,7 @@
         {   
             "id": 16,
             "name": "The C4 Cam 3",
-            "image": "./images/3-default.png",
+            "image": "/images/3-default.png",
             "price": 74.95,
             "weight": "181.0 g / 6.39 oz",
             "camHead":	"4 lobes, double axle",
@@ -122,7 +122,7 @@
         {   
             "id": 17,
             "name": "The C4 Cam 4",
-            "image": "./images/4-default.webp",
+            "image": "/images/4-default.webp",
             "price": 89.95,
             "weight": "258.0 g / 9.09 oz",
             "camHead":	"4 lobes, double axle",
@@ -139,7 +139,7 @@
         {   
             "id": 18,
             "name": "The C4 Cam 5",
-            "image": "./images/5-default.webp",
+            "image": "/images/5-default.webp",
             "price": 114.95,
             "weight": "348.0 g / 12.28 oz",
             "camHead":	"4 lobes, double axle",
@@ -156,7 +156,7 @@
         {   
             "id": 19,
             "name": "The C4 Cam 6",
-            "image": "./images/6-default.webp",
+            "image": "/images/6-default.webp",
             "price": 124.95,
             "weight": "530.0 g / 18.69 oz",
             "camHead":	"4 lobes, double axle",
@@ -173,7 +173,7 @@
         {   
             "id": 20,
             "name": "The C4 Cam 7",
-            "image": "./images/7-default.webp",
+            "image": "/images/7-default.webp",
             "price": 199.95,
             "weight": "709.0 g / 25.00 oz",
             "camHead":	"4 lobes, double axle",
@@ -190,7 +190,7 @@
         {   
             "id": 21,
             "name": "The C4 Cam 8",
-            "image": "./images/8-default.webp",
+            "image": "/images/8-default.webp",
             "price": 239.95,
             "weight": "965.0 g / 34.03 oz",
             "camHead":	"4 lobes, double axle",
@@ -207,7 +207,7 @@
         {   
             "id": 22,
             "name": "The C4 Cam 21",
-            "image": "./images/21-default.jpg",
+            "image": "/images/21-default.jpg",
             "price": 499.95,
             "weight": "1337.0 g / 47.16 oz",
             "camHead":	"4 lobes, double axle",

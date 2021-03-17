@@ -72,7 +72,7 @@ export default function About(props) {
         <div className="section-text">
           <h3>What do you think? Will you join us?</h3>
           <button>
-            <Link to="/Shopping-Cart/Shop">CLICK HERE</Link>
+            <Link to="/Shop">CLICK HERE</Link>
           </button>
           <br />
           <br />

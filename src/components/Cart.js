@@ -14,11 +14,16 @@ export default function Cart(props) {
       itemToRemove.push(i.textContent)
     );
     itemToRemove[0] = e.target.parentNode.childNodes[0].src.replace(
-      "http://localhost:3000",
-      "."
+      "http://localhost:3000/Shopping-Cart",
+      ""
     );
     itemToRemove[1] = +itemToRemove[1];
     itemToRemove.splice(-1, 1);
+    console.log(itemToRemove);
+    console.log(props.cartContents[0]);
+    console.log(
+      JSON.stringify(itemToRemove) === JSON.stringify(props.cartContents[0])
+    );
 
     for (let j = 0; j < props.cartContents.length; j++) {
       if (

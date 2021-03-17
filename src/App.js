@@ -52,7 +52,7 @@ function App() {
           )}
         />
         <Route
-          path="/Shopping-Cart/About"
+          path="/About"
           render={(props) => (
             <About
               {...props}
@@ -62,7 +62,7 @@ function App() {
           )}
         />
         <Route
-          path="/Shopping-Cart/Shop"
+          path="/Shop"
           render={(props) => (
             <Shop
               {...props}

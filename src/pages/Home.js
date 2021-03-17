@@ -55,7 +55,7 @@ export default function Home(props) {
           <h3>SHOP NOW</h3>
 
           <button>
-            <Link to="/Shopping-Cart/Shop">CLICK HERE</Link>
+            <Link to="/Shop">CLICK HERE</Link>
           </button>
         </div>
       </div>
