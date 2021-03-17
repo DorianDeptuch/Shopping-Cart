@@ -101,3 +101,4 @@ export default App;
 //        figure out why the shop page isn't being responsive
 //        change the select options so that the id used to scrollIntoview is the price tag or the name itself
 //        add a notification "x item has been added to cart [view cart]"
+//        live build loads to the 404 page, images not working on the live build

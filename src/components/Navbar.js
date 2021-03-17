@@ -10,19 +10,19 @@ export default function Navbar(props) {
       <div className="list-div">
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/Shopping-Cart/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/About">About</NavLink>
+            <NavLink to="/Shopping-Cart/About">About</NavLink>
           </li>
           <li>
-            <NavLink to="/Shop">Shop</NavLink>
+            <NavLink to="/Shopping-Cart/Shop">Shop</NavLink>
           </li>
           <li>
             <p
               className="nav-cart-link"
               onClick={props.handleDisplayCart}
-              href="/Shop"
+              href="/Shopping-Cart/Shop"
             >
               &#128722;
             </p>
