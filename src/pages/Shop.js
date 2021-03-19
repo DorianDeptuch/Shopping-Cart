@@ -6,6 +6,8 @@ export default function Shop(props) {
   const techSpecs = dataFromJSON.data;
   const [items, setItems] = useState(techSpecs);
 
+  window.scrollTo(0, 0);
+
   const mappedName = items.map((item) => (
     <option key={item.id}>
       {item.id} - {item.name}

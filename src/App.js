@@ -118,3 +118,4 @@ export default App;
 //        disable add to cart button if itemAmount is 0
 //        maybe work on making the buttons prettier
 //        apply styles for other browsers
+//        trash can sits outside of itemized list of cart in mobile view
