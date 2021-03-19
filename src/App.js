@@ -117,3 +117,4 @@ export default App;
 //?       bug: if two of the same item and amount are next to each other, both are deleted if one is clicked -- hard to replicate
 //        disable add to cart button if itemAmount is 0
 //        maybe work on making the buttons prettier
+//        apply styles for other browsers
