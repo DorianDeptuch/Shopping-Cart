@@ -10,7 +10,7 @@ export default function Navbar(props) {
       <div className="list-div">
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/Shopping-Cart/">Home</NavLink>
           </li>
           <li>
             <NavLink to="/About">About</NavLink>

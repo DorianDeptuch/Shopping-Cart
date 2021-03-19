@@ -39,6 +39,7 @@ export default function Shop(props) {
       setItemAmount={props.setItemAmount}
       subtotal={props.subtotal}
       setSubtotal={props.setSubtotal}
+      setDisplayNotification={props.setDisplayNotification}
     />
   ));
 

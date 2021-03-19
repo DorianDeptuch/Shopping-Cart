@@ -11,6 +11,14 @@ export default function Item(props) {
     setItemAmount((prev) => prev - 1);
   };
 
+  const handleDisplayNotification = () => {
+    props.setDisplayNotification(true);
+
+    setTimeout(() => {
+      props.setDisplayNotification(false);
+    }, 3000);
+  };
+
   const pushItemContent = () => {
     let itemTotal = (itemAmount * props.price).toFixed(2);
     props.setCartContents((prev) => [
@@ -18,12 +26,15 @@ export default function Item(props) {
       [props.image, itemAmount, props.name, itemTotal],
     ]);
     props.setSubtotal((prev) => +(prev += itemAmount * props.price).toFixed(2));
+
+    handleDisplayNotification();
   };
 
   const handleChange = (e) => {
     if (e.target.parentNode.childNodes[1].value <= 0) {
       setItemAmount(1);
       e.target.parentNode.parentNode.childNodes[0].disabled = true;
+      e.target.parentNode.parentNode.childNodes[1].disabled = true;
     }
   };
 

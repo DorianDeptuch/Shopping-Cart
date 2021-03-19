@@ -20,7 +20,7 @@ export default function About(props) {
             the great George Mallory:
             <br />{" "}
             <em>
-              <hr />
+              <br />
               “People ask me, 'What is the use of climbing Mount Everest?' and
               my answer must at once be, 'It is of no use.' There is not the
               slightest prospect of any gain whatsoever. Oh, we may learn a
@@ -36,7 +36,7 @@ export default function About(props) {
               And joy is, after all, the end of life. We do not live to eat and
               make money. We eat and make money to be able to live. That is what
               life means and what life is for."
-              <hr />
+              <br />
             </em>
           </p>
         </div>
@@ -48,7 +48,8 @@ export default function About(props) {
             crossing the street are risky too, but we've accepted these risks
             into our daily lives. Live a little and climb a mountain! Still not
             convinved? Here's another quote:
-            <hr />
+            <br />
+            <br />
             <em>
               "The pleasure of risk is in the control needed to ride it with
               assurance so that what appears dangerous to the outsider is, to
@@ -65,7 +66,7 @@ export default function About(props) {
             </em>
             <br />
             -A. Alvarez
-            <hr />
+            <br />
           </p>
         </div>
         <br />

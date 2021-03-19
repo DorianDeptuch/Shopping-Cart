@@ -9,21 +9,23 @@ export default function Cart(props) {
   const handleDelete = (e) => {
     let cartContentsCopy = [...props.cartContents];
     let itemToRemove = [];
+    let imageStringStartPosition = "";
+    let imageFullSource = "";
 
     e.target.parentNode.childNodes.forEach((i) =>
       itemToRemove.push(i.textContent)
     );
-    itemToRemove[0] = e.target.parentNode.childNodes[0].src.replace(
-      "http://localhost:3000/Shopping-Cart",
-      ""
+    imageFullSource = e.target.parentNode.childNodes[0].src;
+    imageStringStartPosition = e.target.parentNode.childNodes[0].src.search(
+      /images/
+    );
+
+    itemToRemove[0] = imageFullSource.slice(
+      imageStringStartPosition - 1,
+      imageFullSource.length
     );
     itemToRemove[1] = +itemToRemove[1];
     itemToRemove.splice(-1, 1);
-    console.log(itemToRemove);
-    console.log(props.cartContents[0]);
-    console.log(
-      JSON.stringify(itemToRemove) === JSON.stringify(props.cartContents[0])
-    );
 
     for (let j = 0; j < props.cartContents.length; j++) {
       if (
