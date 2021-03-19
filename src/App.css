@@ -746,6 +746,7 @@ select > option {
   font-family: "Teko", sans-serif;
   font-size: 1.5rem;
   border-radius: 10px;
+  background-color: white;
 }
 
 .exit-notification {
